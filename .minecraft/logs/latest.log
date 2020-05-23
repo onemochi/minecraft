@@ -1,0 +1,752 @@
+[15:14:56] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:14:56] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:14:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:14:56] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[15:14:56] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_51, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jre1.8.0_51
+[15:14:57] [main/WARN] [FML]: The coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin) is not signed!
+[15:14:57] [main/WARN] [FML]: The coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin) is not signed!
+[15:14:57] [main/INFO] [FML]: Searching C:\mc\1.12.2皮皮虾之王\.minecraft\mods for mods
+[15:14:57] [main/INFO] [FML]: Searching C:\mc\1.12.2皮皮虾之王\.minecraft\mods\1.12.2 for mods
+[15:14:57] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in 【R键整理】InventoryTweaks-1.63.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:14:57] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:14:57] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in 【万用皮肤补丁】CustomSkinLoader_Forge-14.11.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:14:57] [main/WARN] [FML]: The coremod customskinloader.forge.ForgePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:14:57] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in 【内存优化】减少内存使-1.12.2-0.9.2-Anarchy.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:14:57] [main/WARN] [FML]: The coremod pl.asie.foamfix.coremod.FoamFixCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:14:57] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from 【高清修复】OptiFine_1.12.2_HD_U_F5.jar
+[15:14:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:14:57] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+[15:14:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:14:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:14:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:14:57] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[15:14:57] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[15:14:57] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[15:14:57] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
+[15:14:57] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: C:\mc\1.12.2皮皮虾之王\.minecraft\mods\【高清修复】OptiFine_1.12.2_HD_U_F5.jar
+[15:14:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:14:58] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[15:14:58] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[15:14:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:14:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:14:58] [main/INFO] [STDOUT]: [customskinloader.Logger:<init>:50]: Log Path: C:\mc\1.12.2皮皮虾之王\.minecraft\.\CustomSkinLoader\ForgePlugin.log
+[15:14:58] [main/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$InitTransformer
+[15:14:58] [main/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(<init>(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/io/File;Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V)
+[15:14:58] [main/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadSkinTransformer
+[15:14:58] [main/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(func_152789_a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation;)
+[15:14:58] [main/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(loadSkin(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation;)
+[15:14:58] [main/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadProfileTexturesTransformer
+[15:14:58] [main/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(func_152790_a(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V)
+[15:14:58] [main/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(loadProfileTextures(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V)
+[15:14:58] [main/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadSkinFromCacheTransformer
+[15:14:58] [main/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(func_152788_a(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map;)
+[15:14:58] [main/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(loadSkinFromCache(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map;)
+[15:14:58] [main/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.PlayerTabTransformer$ScoreObjectiveTransformer
+[15:14:58] [main/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.gui.GuiPlayerTabOverlay(func_175249_a(ILnet/minecraft/scoreboard/Scoreboard;Lnet/minecraft/scoreboard/ScoreObjective;)V)
+[15:14:58] [main/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.gui.GuiPlayerTabOverlay(renderPlayerlist(ILnet/minecraft/scoreboard/Scoreboard;Lnet/minecraft/scoreboard/ScoreObjective;)V)
+[15:14:58] [main/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SpectatorMenuTransformer$PlayerMenuObjectTransformer
+[15:14:58] [main/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.gui.spectator.PlayerMenuObject(<init>(Lcom/mojang/authlib/GameProfile;)V)
+[15:14:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:14:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:14:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:14:58] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:14:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:14:58] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[15:14:58] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[15:14:58] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:111]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[15:14:58] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:148]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[15:14:59] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:65]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
+[15:14:59] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:124]: Spliced in METHOD: net.minecraft.client.util.SearchTreeManager.func_110549_a
+[15:14:59] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: FogMode
+[15:14:59] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:124]: Spliced in METHOD: net.minecraft.block.state.BlockStateContainer.createState
+[15:14:59] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:124]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.equals
+[15:14:59] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:124]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.hashCode
+[15:14:59] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:171]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode
+[15:14:59] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:171]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode_calced
+[15:14:59] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:124]: Spliced in METHOD: net.minecraft.block.BlockGrass.func_180650_b
+[15:14:59] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:124]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.equals
+[15:14:59] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:124]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.hashCode
+[15:14:59] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:124]: Spliced in METHOD: net.minecraft.block.properties.PropertyInteger.hashCode
+[15:14:59] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:171]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode
+[15:14:59] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:171]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode_calced
+[15:14:59] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:124]: Spliced in METHOD: net.minecraft.tileentity.TileEntity.func_190559_a
+[15:14:59] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:124]: Spliced in METHOD: net.minecraft.block.BlockBed.func_189540_a
+[15:15:00] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:75]: Replaced NEW for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[15:15:00] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:87]: Replaced INVOKESPECIAL for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[15:15:01] [Client thread/INFO] [Config]: [OptiFine] *** Reflector Forge ***
+[15:15:01] [Client thread/INFO] [Config]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[15:15:01] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:75]: Replaced NEW for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[15:15:01] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:87]: Replaced INVOKESPECIAL for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[15:15:01] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:124]: Spliced in METHOD: net.minecraftforge.common.property.ExtendedBlockState.createState
+[15:15:01] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:75]: Replaced NEW for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[15:15:01] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:87]: Replaced INVOKESPECIAL for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[15:15:01] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.ReturnIfBooleanTruePatch:apply:91]: Added return if option true in net/minecraft/client/renderer/texture/TextureMap func_94248_c
+[15:15:01] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:124]: Spliced in METHOD: net.minecraftforge.client.model.pipeline.VertexLighterFlat.updateLightmap
+[15:15:01] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:124]: Spliced in METHOD: net.minecraftforge.client.model.pipeline.VertexLighterFlat.updateBlockInfo
+[15:15:01] [Client thread/INFO] [Config]: [OptiFine] *** Reflector Vanilla ***
+[15:15:01] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [Client thread INFO] [CSL DEBUG] Successfully transformed method <init> in class net.minecraft.client.resources.SkinManager
+[15:15:01] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [Client thread INFO] [CSL DEBUG] Successfully transformed method func_152789_a in class net.minecraft.client.resources.SkinManager
+[15:15:01] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [Client thread INFO] [CSL DEBUG] Successfully transformed method func_152790_a in class net.minecraft.client.resources.SkinManager
+[15:15:01] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [Client thread INFO] [CSL DEBUG] Successfully transformed method func_152788_a in class net.minecraft.client.resources.SkinManager
+[15:15:01] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[15:15:02] [Client thread/INFO] [Config]: [OptiFine] 
+[15:15:02] [Client thread/INFO] [Config]: [OptiFine] OptiFine_1.12.2_HD_U_F5
+[15:15:02] [Client thread/INFO] [Config]: [OptiFine] Build: 20191204-141934
+[15:15:02] [Client thread/INFO] [Config]: [OptiFine] OS: Windows 8.1 (amd64) version 6.3
+[15:15:02] [Client thread/INFO] [Config]: [OptiFine] Java: 1.8.0_51, Oracle Corporation
+[15:15:02] [Client thread/INFO] [Config]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[15:15:02] [Client thread/INFO] [Config]: [OptiFine] LWJGL: 2.9.4
+[15:15:02] [Client thread/INFO] [Config]: [OptiFine] OpenGL: AMD Radeon Pro 5300M, version 4.6.13571 Compatibility Profile Context FireGL 19.30.03.05 26.20.13003.5002, ATI Technologies Inc.
+[15:15:02] [Client thread/INFO] [Config]: [OptiFine] OpenGL Version: 4.6.13571
+[15:15:02] [Client thread/INFO] [Config]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
+[15:15:02] [Client thread/INFO] [Config]: [OptiFine] Maximum texture size: 16384x16384
+[15:15:02] [VersionCheck/INFO] [Config]: [OptiFine] Checking for new version
+[15:15:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] OpenGL Version: 4.6.13571 Compatibility Profile Context FireGL 19.30.03.05 26.20.13003.5002
+[15:15:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Vendor:  ATI Technologies Inc.
+[15:15:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Renderer: AMD Radeon Pro 5300M
+[15:15:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[15:15:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[15:15:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[15:15:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[15:15:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Load shaders configuration.
+[15:15:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Loaded shaderpack: (internal)
+[15:15:02] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
+[15:15:02] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of item mappings after resources are loaded
+[15:15:02] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of entity mappings after resources are loaded
+[15:15:02] [Client thread/INFO] [FML]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_F5, enabling compatibility features
+[15:15:02] [Client thread/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 79464440 bytes (75 MB) / 285212672 bytes (272 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: 11 total; -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xmn128m -Xmx4096m -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+CustomSkinLoader (【万用皮肤补丁】CustomSkinLoader_Forge-14.11.jar)
+  customskinloader.forge.loader.LaunchWrapper
+Inventory Tweaks Coremod (【R键整理】InventoryTweaks-1.63.jar)
+  invtweaks.forge.asm.ContainerTransformer
+Do not report to Forge! Remove FoamFixAPI (or replace with FoamFixAPI-Lawful) and try again. (【内存优化】减少内存使-1.12.2-0.9.2-Anarchy.jar)
+  pl.asie.foamfix.coremod.FoamFixTransformer
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.13571 Compatibility Profile Context FireGL 19.30.03.05 26.20.13003.5002' Renderer: 'AMD Radeon Pro 5300M'
+[15:15:02] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
+[15:15:02] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[15:15:02] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[15:15:02] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[15:15:02] [Client thread/INFO] [FML]: Searching C:\mc\1.12.2皮皮虾之王\.minecraft\mods for mods
+[15:15:02] [Client thread/INFO] [FML]: Searching C:\mc\1.12.2皮皮虾之王\.minecraft\mods\1.12.2 for mods
+[15:15:03] [VersionCheck/INFO] [Config]: [OptiFine] Version found: D3
+[15:15:03] [Client thread/INFO] [FML]: Forge Mod Loader has identified 21 mods to load
+[15:15:04] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, foamfixcore, jei, jojobadv, inventorytweaks, customskinloader, foamfix, uncraftingtable, torcherino, ic2, journeymap, twilightforest, thaumcraft, baubles, projecte, theoneprobe, topaddons, advanced_solar_panels] at CLIENT
+[15:15:04] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, foamfixcore, jei, jojobadv, inventorytweaks, customskinloader, foamfix, uncraftingtable, torcherino, ic2, journeymap, twilightforest, thaumcraft, baubles, projecte, theoneprobe, topaddons, advanced_solar_panels] at SERVER
+[15:15:04] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 117301200 nanos
+[15:15:05] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:Steve's Bizarre Adventure, FMLFileResourcePack:Inventory Tweaks, FMLFileResourcePack:CustomSkinLoader, FMLFileResourcePack:FoamFix, FMLFileResourcePack:Uncrafting Table, FMLFileResourcePack:Torcherino, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:JourneyMap, FMLFileResourcePack:The Twilight Forest, FMLFileResourcePack:Thaumcraft, FMLFileResourcePack:Baubles, FMLFileResourcePack:ProjectE, FMLFileResourcePack:The One Probe, FMLFileResourcePack:TOP Addons, FMLFileResourcePack:Advanced Solar Panels, Faithful 1.12.2.zip
+[15:15:05] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[15:15:05] [Client thread/INFO] [FML]: Found 1460 ObjectHolder annotations
+[15:15:05] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[15:15:05] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[15:15:05] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[15:15:05] [Forge Version Check/INFO] [forge.VersionCheck]: [uncraftingtable] Starting version check at https://raw.githubusercontent.com/crazysnailboy/UncraftingTable/1.12/update.json
+[15:15:06] [Forge Version Check/INFO] [forge.VersionCheck]: [projecte] Starting version check at https://raw.githubusercontent.com/sinkillerj/ProjectE/mc1.12.x/update.json
+[15:15:06] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Starting version check at https://raw.githubusercontent.com/TeamTwilight/twilightforest/1.12.x/update.json
+[15:15:06] [Forge Version Check/INFO] [forge.VersionCheck]: [topaddons] Starting version check at https://raw.githubusercontent.com/DrManganese/TOPAddons/1.12/FUC.json
+[15:15:06] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[15:15:06] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.ProxyCommon:preInit:83]: minecraft:hopper
+[15:15:06] [Client thread/INFO] [foamfix]: Removing LaunchWrapper package manifest map...
+[15:15:06] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:124]: Spliced in METHOD: net.minecraftforge.client.model.ItemLayerModel.bake
+[15:15:06] [Client thread/INFO] [foamfix]: Using fast animated textures.
+[15:15:06] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `torcherino_tile`, expected `torcherino`. This could be a intended override, but in most cases indicates a broken mod.
+[15:15:06] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `compressed_torcherino_tile`, expected `torcherino`. This could be a intended override, but in most cases indicates a broken mod.
+[15:15:06] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `double_compressed_torcherino_tile`, expected `torcherino`. This could be a intended override, but in most cases indicates a broken mod.
+[15:15:07] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `advanced_solar_panels` for name `molecular_transformer`, expected `ic2`. This could be a intended override, but in most cases indicates a broken mod.
+[15:15:07] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `advanced_solar_panels` for name `quantum_generator`, expected `ic2`. This could be a intended override, but in most cases indicates a broken mod.
+[15:15:07] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `advanced_solar_panels` for name `advanced_solar_panel`, expected `ic2`. This could be a intended override, but in most cases indicates a broken mod.
+[15:15:07] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `advanced_solar_panels` for name `hybrid_solar_panel`, expected `ic2`. This could be a intended override, but in most cases indicates a broken mod.
+[15:15:07] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `advanced_solar_panels` for name `ultimate_solar_panel`, expected `ic2`. This could be a intended override, but in most cases indicates a broken mod.
+[15:15:07] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `advanced_solar_panels` for name `quantum_solar_panel`, expected `ic2`. This could be a intended override, but in most cases indicates a broken mod.
+[15:15:07] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2854
+[15:15:12] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 352 out of 352 recipes for shaped recipes
+[15:15:12] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 79 out of 79 recipes for shapeless recipes
+[15:15:12] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 41 out of 41 recipes for solid uu recipes
+[15:15:12] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 27 out of 27 recipes for furnace recipes
+[15:15:12] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for blast furnace recipes
+[15:15:12] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for block cutter recipes
+[15:15:12] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 51 out of 51 recipes for compressor recipes
+[15:15:12] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 13 out of 13 recipes for extractor recipes
+[15:15:12] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 86 out of 86 recipes for macerator recipes
+[15:15:12] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for metal former cutting recipes
+[15:15:12] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 10 out of 10 recipes for metal former extruding recipes
+[15:15:12] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for metal former rolling recipes
+[15:15:12] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 8 out of 8 recipes for ore washing recipes
+[15:15:12] [Client thread/INFO] [ic2.Recipe]: Successfully loaded 26 out of 26 recipes for thermal centrifuge recipes
+[15:15:12] [Client thread/WARN] [ic2.Item]: The item tritium_fuel_rod is not initialized.
+[15:15:12] [Client thread/WARN] [ic2.Item]: The item plasma_launcher is not initialized.
+[15:15:12] [Client thread/WARN] [ic2.Item]: The item item_pipe is not initialized.
+[15:15:12] [Client thread/WARN] [ic2.Item]: The item extractor_cover is not initialized.
+[15:15:12] [Client thread/WARN] [ic2.Item]: The item ingot2 is not initialized.
+[15:15:12] [Client thread/WARN] [ic2.Item]: The item test_pick is not initialized.
+[15:15:12] [Client thread/WARN] [ic2.Block]: The fluid deuterium is not initialized.
+[15:15:12] [Client thread/WARN] [ic2.Block]: The fluid molten_brass is not initialized.
+[15:15:12] [Client thread/WARN] [ic2.Block]: The fluid molten_bronze is not initialized.
+[15:15:12] [Client thread/WARN] [ic2.Block]: The fluid molten_copper is not initialized.
+[15:15:12] [Client thread/WARN] [ic2.Block]: The fluid molten_gold is not initialized.
+[15:15:12] [Client thread/WARN] [ic2.Block]: The fluid molten_iron is not initialized.
+[15:15:12] [Client thread/WARN] [ic2.Block]: The fluid molten_lead is not initialized.
+[15:15:12] [Client thread/WARN] [ic2.Block]: The fluid molten_silver is not initialized.
+[15:15:12] [Client thread/WARN] [ic2.Block]: The fluid molten_steel is not initialized.
+[15:15:12] [Client thread/WARN] [ic2.Block]: The fluid molten_tin is not initialized.
+[15:15:12] [Client thread/WARN] [ic2.Block]: The fluid molten_zinc is not initialized.
+[15:15:12] [Client thread/INFO] [journeymap]: No plugins for JourneyMap API discovered.
+[15:15:12] [Client thread/INFO] [FML]: OBJLoader: Domain thaumcraft has been added.
+[15:15:13] [Client thread/INFO] [twilightforest]: Loaded compatibility for mod Baubles.
+[15:15:13] [Client thread/INFO] [twilightforest]: Skipped compatibility for mod Chisel.
+[15:15:13] [Client thread/INFO] [twilightforest]: Skipped compatibility for mod Forestry.
+[15:15:13] [Client thread/INFO] [twilightforest]: Skipped compatibility for mod Immersive Engineering.
+[15:15:13] [Client thread/INFO] [twilightforest]: Loaded compatibility for mod Just Enough Items.
+[15:15:13] [Client thread/INFO] [twilightforest]: Skipped compatibility for mod Tinkers' Construct.
+[15:15:13] [Client thread/INFO] [twilightforest]: Loaded compatibility for mod Thaumcraft.
+[15:15:13] [Client thread/INFO] [theoneprobe]: The One Probe Detected Baubles: enabling support
+[15:15:13] [Client thread/INFO] [TOP Addons]: Found 17 addon candidates.
+[15:15:13] [Client thread/INFO] [TOP Addons]: Created addon Base.
+[15:15:13] [Client thread/INFO] [TOP Addons]: Created addon IndustrialCraft 2 with 4 special helmets.
+[15:15:13] [Client thread/INFO] [TOP Addons]: Created addon Vanilla.
+[15:15:13] [Client thread/INFO] [advanced_solar_panels]: Loading ASP Config from C:\mc\1.12.2皮皮虾之王\.minecraft\config\advanced_solar_panels.cfg
+[15:15:13] [Client thread/INFO] [advanced_solar_panels]: Loading MT Recipes from C:\mc\1.12.2皮皮虾之王\.minecraft\config\advanced_solar_panels_MTRecipes.cfg
+[15:15:14] [Client thread/INFO] [FML]: Applying holder lookups
+[15:15:14] [Client thread/INFO] [FML]: Holder lookups applied
+[15:15:14] [Client thread/INFO] [FML]: Applying holder lookups
+[15:15:14] [Client thread/INFO] [FML]: Holder lookups applied
+[15:15:14] [Client thread/INFO] [FML]: Applying holder lookups
+[15:15:14] [Client thread/INFO] [FML]: Holder lookups applied
+[15:15:14] [Client thread/INFO] [FML]: Applying holder lookups
+[15:15:14] [Client thread/INFO] [FML]: Holder lookups applied
+[15:15:14] [Client thread/INFO] [FML]: Injecting itemstacks
+[15:15:14] [Client thread/INFO] [FML]: Itemstack injection complete
+[15:15:14] [Client thread/INFO] [Config]: [OptiFine] *** Reloading textures ***
+[15:15:14] [Client thread/INFO] [Config]: [OptiFine] Resource packs: Faithful 1.12.2.zip
+[15:15:15] [Client thread/WARN] [net.minecraft.client.audio.SoundHandler]: File jojobadv:sounds/spawn_tf.ogg does not exist, cannot add it to event jojobadv:spawn_tf
+[15:15:15] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: thaumcraft:runicshieldcharge
+[15:15:15] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[15:15:15] [Client thread/INFO] [Config]: [OptiFine] Loading mcpatcher/font/ascii.properties
+[15:15:15] [Client thread/INFO] [Config]: [OptiFine] Loading mcpatcher/font/ascii_sga.properties
+[15:15:15] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:124]: Spliced in METHOD: net.minecraftforge.client.model.ModelLoader$VanillaModelWrapper.bakeNormal
+[15:15:15] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[15:15:15] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:15:15] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[15:15:15] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'thaumcraft:models/block/arcane_workbench_charger.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ni' (model: 'thaumcraft:models/block/arcane_workbench_charger.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Tf' (model: 'thaumcraft:models/block/arcane_workbench_charger.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'illum' (model: 'thaumcraft:models/block/arcane_workbench_charger.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'texture' in 'thaumcraft:models/block/arcane_workbench_charger.mtl'. The color defined by key 'Ks' will not be applied!
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ke' (model: 'thaumcraft:models/block/arcane_workbench_charger.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'thaumcraft:models/block/pillar.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ni' (model: 'thaumcraft:models/block/pillar.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Tf' (model: 'thaumcraft:models/block/pillar.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'illum' (model: 'thaumcraft:models/block/pillar.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'texture' in 'thaumcraft:models/block/pillar.mtl'. The color defined by key 'Ks' will not be applied!
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ke' (model: 'thaumcraft:models/block/pillar.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'thaumcraft:models/block/thaumatorium.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ni' (model: 'thaumcraft:models/block/thaumatorium.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Tf' (model: 'thaumcraft:models/block/thaumatorium.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'illum' (model: 'thaumcraft:models/block/thaumatorium.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'texture' in 'thaumcraft:models/block/thaumatorium.mtl'. The color defined by key 'Ks' will not be applied!
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ke' (model: 'thaumcraft:models/block/thaumatorium.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'thaumcraft:models/block/golembuilder.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ni' (model: 'thaumcraft:models/block/golembuilder.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Tf' (model: 'thaumcraft:models/block/golembuilder.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'illum' (model: 'thaumcraft:models/block/golembuilder.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'texture' in 'thaumcraft:models/block/golembuilder.mtl'. The color defined by key 'Ks' will not be applied!
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ke' (model: 'thaumcraft:models/block/golembuilder.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'thaumcraft:models/item/scanner.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ni' (model: 'thaumcraft:models/item/scanner.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Tf' (model: 'thaumcraft:models/item/scanner.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'illum' (model: 'thaumcraft:models/item/scanner.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'body' in 'thaumcraft:models/item/scanner.mtl'. The color defined by key 'Ks' will not be applied!
+[15:15:16] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ke' (model: 'thaumcraft:models/item/scanner.mtl') is not currently supported, skipping
+[15:15:16] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'pane' in 'thaumcraft:models/item/scanner.mtl'. The color defined by key 'Ks' will not be applied!
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] Multitexture: false
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/bookshelf_connect/bookshelf_a.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/bookshelf_random/left/bookshelf_b.properties
+[15:15:16] [Client thread/WARN] [Config]: [OptiFine] File not found: mcpatcher/ctm/bookshelf_connect/0.png
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/bookshelf_random/middle/bookshelf_b.properties
+[15:15:16] [Client thread/WARN] [Config]: [OptiFine] File not found: mcpatcher/ctm/bookshelf_connect/1.png
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/bookshelf_random/right/bookshelf_b.properties
+[15:15:16] [Client thread/WARN] [Config]: [OptiFine] File not found: mcpatcher/ctm/bookshelf_connect/2.png
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/bookshelf_random/single/bookshelf_b.properties
+[15:15:16] [Client thread/WARN] [Config]: [OptiFine] File not found: mcpatcher/ctm/bookshelf_connect/3.png
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/bookshelf_random/single/bookshelf_c.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/brewing_stand/brewing_stand.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_clear/glass.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_black/glass_black.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_blue/glass_blue.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_brown/glass_brown.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_cyan/glass_cyan.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_gray/glass_gray.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_green/glass_green.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_light_blue/glass_light_blue.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_lime/glass_lime.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_magenta/glass_magenta.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_orange/glass_orange.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_pink/glass_pink.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_purple/glass_purple.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_red/glass_red.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_silver/glass_silver.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_white/glass_white.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_yellow/glass_yellow.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/packed_ice/ice.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/sandstone/sandstone_normal.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/sandstone_smooth/sandstone_smooth.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/sugar_cane/reeds.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/vines/vine.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/wood_ends/wood_acacia/log_acacia_top.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/wood_ends/wood_birch/log_birch_top.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/wood_ends/wood_dark_oak/log_big_oak_top.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/wood_ends/wood_jungle/log_jungle_top.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/wood_ends/wood_oak/log_oak_top.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/wood_ends/wood_spruce/log_spruce_top.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/overlay/leaves_acacia/leaves_acacia.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/overlay/leaves_big_oak/leaves_big_oak.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/overlay/leaves_birch/leaves_birch.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/overlay/leaves_oak/leaves_oak.properties
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] Multipass connected textures: false
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] Multipass connected textures: false
+[15:15:16] [Client thread/INFO] [Config]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[15:15:17] [Client thread/ERROR] [net.minecraft.client.renderer.texture.TextureMap]: Using missing texture, unable to load thaumcraft:textures/items\scanscreen.png.png, java.io.FileNotFoundException
+[15:15:17] [Client thread/ERROR] [net.minecraft.client.renderer.texture.TextureMap]: Using missing texture, unable to load minecraft:textures/\thaumcraft\thaumcraft110\src\main\resources\assets\thaumcraft\textures\blocks\thaumatorium.png.png, java.io.FileNotFoundException
+[15:15:17] [Client thread/ERROR] [net.minecraft.client.renderer.texture.TextureMap]: Using missing texture, unable to load minecraft:textures/\thaumcraft\thaumcraft110\bin\assets\thaumcraft\textures\blocks\golembuilder.png.png, java.io.FileNotFoundException
+[15:15:17] [Client thread/ERROR] [net.minecraft.client.renderer.texture.TextureMap]: Using missing texture, unable to load minecraft:textures/\thaumcraft\thaumcraft110\src\main\resources\assets\thaumcraft\textures\blocks\arcane_workbench_charger.png.png, java.io.FileNotFoundException
+[15:15:18] [Client thread/ERROR] [net.minecraft.client.renderer.texture.TextureMap]: Using missing texture, unable to load thaumcraft:textures/items\scanner.png.png, java.io.FileNotFoundException
+[15:15:18] [Client thread/ERROR] [net.minecraft.client.renderer.texture.TextureMap]: Using missing texture, unable to load minecraft:mcpatcher/ctm/bookshelf_connect/0.png, java.io.FileNotFoundException
+[15:15:18] [Client thread/ERROR] [net.minecraft.client.renderer.texture.TextureMap]: Using missing texture, unable to load minecraft:mcpatcher/ctm/bookshelf_connect/1.png, java.io.FileNotFoundException
+[15:15:18] [Client thread/ERROR] [net.minecraft.client.renderer.texture.TextureMap]: Using missing texture, unable to load minecraft:mcpatcher/ctm/bookshelf_connect/2.png, java.io.FileNotFoundException
+[15:15:18] [Client thread/ERROR] [net.minecraft.client.renderer.texture.TextureMap]: Using missing texture, unable to load minecraft:mcpatcher/ctm/bookshelf_connect/3.png, java.io.FileNotFoundException
+[15:15:18] [Client thread/INFO] [Config]: [OptiFine] Custom loader sprites: 7
+[15:15:18] [Client thread/INFO] [Config]: [OptiFine] Sprite dependencies: 7
+[15:15:18] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 2048x2048 textures-atlas
+[15:15:18] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] allocateTextureMap 0 2048 2048 
+[15:15:19] [Client thread/INFO] [Config]: [OptiFine] Animated sprites: 125
+[15:15:20] [Client thread/INFO] [foamfix]: Clearing ModelLoaderRegistry cache (13184 items)...
+[15:15:20] [Client thread/INFO] [foamfix]: Cleared 13179 objects.
+[15:15:20] [Client thread/INFO] [foamfix]: Deduplicating models...
+[15:15:20] [Client thread/INFO] [foamfix]: Deduplicating models...
+[15:15:20] [Client thread/INFO] [foamfix]: Deduplicated 82290 (+ 84798) objects.
+[15:15:20] [Client thread/ERROR] [FML]: Exception loading model for variant twilightforest:trans_door#inventory, normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model twilightforest:item/trans_door with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177590_d(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177577_b(ModelBakery.java:194) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:513) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.io.FileNotFoundException: twilightforest:models/item/trans_door.json
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(FallbackResourceManager.java:69) ~[cei.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SimpleReloadableResourceManager.java:65) ~[cev.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177594_c(ModelBakery.java:365) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 14 more
+[15:15:20] [Client thread/ERROR] [FML]: Exception loading model for variant twilightforest:trans_door#inventory, blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model twilightforest:trans_door#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177590_d(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177577_b(ModelBakery.java:194) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:513) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 14 more
+[15:15:20] [Client thread/ERROR] [FML]: Exception loading model for variant twilightforest:twilight_oak_door#inventory, normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model twilightforest:item/twilight_oak_door with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177590_d(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177577_b(ModelBakery.java:194) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:513) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.io.FileNotFoundException: twilightforest:models/item/twilight_oak_door.json
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(FallbackResourceManager.java:69) ~[cei.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SimpleReloadableResourceManager.java:65) ~[cev.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177594_c(ModelBakery.java:365) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 14 more
+[15:15:20] [Client thread/ERROR] [FML]: Exception loading model for variant twilightforest:twilight_oak_door#inventory, blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model twilightforest:twilight_oak_door#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177590_d(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177577_b(ModelBakery.java:194) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:513) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 14 more
+[15:15:20] [Client thread/ERROR] [FML]: Exception loading model for variant twilightforest:mangrove_door#inventory, normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model twilightforest:item/mangrove_door with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177590_d(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177577_b(ModelBakery.java:194) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:513) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.io.FileNotFoundException: twilightforest:models/item/mangrove_door.json
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(FallbackResourceManager.java:69) ~[cei.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SimpleReloadableResourceManager.java:65) ~[cev.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177594_c(ModelBakery.java:365) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 14 more
+[15:15:20] [Client thread/ERROR] [FML]: Exception loading model for variant twilightforest:mangrove_door#inventory, blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model twilightforest:mangrove_door#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177590_d(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177577_b(ModelBakery.java:194) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:513) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 14 more
+[15:15:20] [Client thread/ERROR] [FML]: Exception loading model for variant twilightforest:sort_door#inventory, normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model twilightforest:item/sort_door with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177590_d(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177577_b(ModelBakery.java:194) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:513) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.io.FileNotFoundException: twilightforest:models/item/sort_door.json
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(FallbackResourceManager.java:69) ~[cei.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SimpleReloadableResourceManager.java:65) ~[cev.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177594_c(ModelBakery.java:365) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 14 more
+[15:15:20] [Client thread/ERROR] [FML]: Exception loading model for variant twilightforest:sort_door#inventory, blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model twilightforest:sort_door#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177590_d(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177577_b(ModelBakery.java:194) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:513) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 14 more
+[15:15:20] [Client thread/FATAL] [FML]: Suppressed additional 3 model loading errors for domain twilightforest
+[15:15:21] [Client thread/INFO] [foamfix]: JEI search tree manager injection complete!
+[15:15:21] [Client thread/INFO] [THAUMCRAFT]: Checking for mod & oredict compatibilities
+[15:15:21] [Client thread/INFO] [THAUMCRAFT]: Adding entities to MFR safari net blacklist.
+[15:15:21] [Client thread/INFO] [FML]: Applying holder lookups
+[15:15:21] [Client thread/INFO] [FML]: Holder lookups applied
+[15:15:21] [Client thread/INFO] [FML]: Ignored smelting recipe with conflicting input: 1xitem.meteorite_item@32767 = 1xitem.meteorite_hot@0
+[15:15:21] [Client thread/INFO] [FML]: Ignored smelting recipe with conflicting input: 1xitem.meteorite_cool@32767 = 1xitem.meteorite_ingot@0
+[15:15:21] [Client thread/INFO] [inventorytweaks]: Mod initialized
+[15:15:21] [Client thread/INFO] [foamfix]: Deduplicated 159 property sets.
+[15:15:21] [Client thread/INFO] [foamfix]: Weakening LaunchWrapper resource cache...
+[15:15:21] [Client thread/INFO] [foamfix]: Cleaning up ModelLoader...
+[15:15:21] [Client thread/INFO] [torcherino]: class com.sci.torcherino.blocks.tiles.TileTorcherino
+[15:15:22] [Client thread/ERROR] [journeymap]: Default theme not found in C:\mc\1.12.2皮皮虾之王\.minecraft\journeymap\icon\theme\flat\OceanMonument.theme2.json: OceanMonument (SUPPRESSED)
+[15:15:22] [Client thread/INFO] [journeymap]: JourneyMap log initialized.
+[15:15:22] [Client thread/INFO] [journeymap]: initialize ENTER
+[15:15:22] [Client thread/INFO] [journeymap]: [ClientAPI] built with JourneyMap API 1.4
+[15:15:22] [Client thread/INFO] [journeymap]: Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[15:15:22] [Client thread/INFO] [journeymap]: initialize EXIT, elapsed count 0 avg ?ms
+[15:15:22] [Client thread/INFO] [TOP Addons]: Config: allHelmetProbable is enabled, edit blacklist to restrict.
+[15:15:22] [Client thread/INFO] [advanced_solar_panels]: Loading Molecular Transformer recipes from file
+[15:15:22] [Client thread/WARN] [advanced_solar_panels]: Skipping line 23 as the output (OreDict:gemSapphire) cannot be resolved
+[15:15:22] [Client thread/WARN] [advanced_solar_panels]: Skipping line 24 as the output (OreDict:gemRuby) cannot be resolved
+[15:15:22] [Client thread/WARN] [advanced_solar_panels]: Skipping line 27 as the output (OreDict:dustChrome) cannot be resolved
+[15:15:22] [Client thread/WARN] [advanced_solar_panels]: Skipping line 28 as the output (OreDict:ingotChrome) cannot be resolved
+[15:15:22] [Client thread/WARN] [advanced_solar_panels]: Skipping line 29 as the output (OreDict:gemCertusQuartz) cannot be resolved
+[15:15:22] [Client thread/WARN] [advanced_solar_panels]: Skipping line 30 as the output (OreDict:ingotNickel) cannot be resolved
+[15:15:22] [Client thread/WARN] [advanced_solar_panels]: Skipping line 33 as the output (OreDict:ingotPlatinum) cannot be resolved
+[15:15:22] [Client thread/INFO] [advanced_solar_panels]: Load complete, successfully loaded 15 out of 22.
+[15:15:22] [Client thread/INFO] [FML]: Injecting itemstacks
+[15:15:22] [Client thread/INFO] [FML]: Itemstack injection complete
+[15:15:22] [Client thread/INFO] [torcherino]: Blacklisting block: tile.pe_dmPedestal
+[15:15:22] [Client thread/INFO] [ic2.Uu]: Loading predefined UU world scan values, run /ic2 uu-world-scan <small|medium|large> to calibrate them for your world.
+[15:15:22] [Client thread/INFO] [ic2.General]: ic2 version 2.8.188-ex112 loaded.
+[15:15:23] [Client thread/INFO] [journeymap]: Added entity icons from journeymap:icon/entity. Success: false
+[15:15:23] [Client thread/INFO] [journeymap]: Preloaded theme textures: 71
+[15:15:23] [Client thread/INFO] [THAUMCRAFT]: Loaded 22 research entries from thaumcraft:research/alchemy
+[15:15:23] [Client thread/INFO] [THAUMCRAFT]: Loaded 5 research entries from thaumcraft:research/eldritch
+[15:15:23] [Client thread/INFO] [THAUMCRAFT]: Loaded 20 research entries from thaumcraft:research/basics
+[15:15:23] [Client thread/INFO] [THAUMCRAFT]: Loaded 23 research entries from thaumcraft:research/auromancy
+[15:15:23] [Client thread/INFO] [THAUMCRAFT]: Loaded 12 research entries from thaumcraft:research/scans
+[15:15:23] [Client thread/INFO] [THAUMCRAFT]: Loaded 20 research entries from thaumcraft:research/artifice
+[15:15:23] [Client thread/INFO] [THAUMCRAFT]: Loaded 17 research entries from thaumcraft:research/infusion
+[15:15:23] [Client thread/INFO] [THAUMCRAFT]: Loaded 29 research entries from thaumcraft:research/golemancy
+[15:15:23] [Client thread/INFO] [jei]: Starting JEI...
+[15:15:23] [Client thread/INFO] [jei]: Registering recipe categories...
+[15:15:23] [Client thread/INFO] [jei]: Registering recipe categories took 16.06 ms
+[15:15:23] [Client thread/INFO] [jei]: Registering mod plugins...
+[15:15:24] [Client thread/INFO] [jei]: Registering mod plugins took 364.4 ms
+[15:15:24] [Client thread/INFO] [jei]: Building recipe registry...
+[15:15:24] [Client thread/INFO] [jei]: Building recipe registry took 105.6 ms
+[15:15:24] [Client thread/INFO] [jei]: Building ingredient list...
+[15:15:24] [Client thread/INFO] [jei]: Building ingredient list took 22.41 ms
+[15:15:24] [Client thread/INFO] [jei]: Building ingredient filter...
+[15:15:24] [Client thread/INFO] [jei]: Building ingredient filter took 151.8 ms
+[15:15:24] [Client thread/INFO] [jei]: Building runtime...
+[15:15:24] [Client thread/INFO] [invtweaks.forge.asm.ContainerTransformer]: InvTweaks: successfully transformed setFocused/func_146195_b
+[15:15:24] [Client thread/INFO] [jei]: Building runtime took 40.78 ms
+[15:15:24] [Client thread/INFO] [jei]: Starting JEI took 833.2 ms
+[15:15:24] [Client thread/INFO] [foamfix]: JEI search tree manager injection complete!
+[15:15:24] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 21 mods
+[15:15:24] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [Client thread INFO] [CSL DEBUG] Successfully transformed method func_175249_a in class net.minecraft.client.gui.GuiPlayerTabOverlay
+[15:15:24] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[15:15:24] [Client thread/INFO] [Config]: [OptiFine] *** Reloading custom textures ***
+[15:15:24] [Client thread/INFO] [Config]: [OptiFine] RandomEntities: textures/entity/spider/spider.png, properties: mcpatcher/mob/spider/spider.properties
+[15:15:24] [Client thread/INFO] [Config]: [OptiFine] RandomEntities: textures/entity/spider_eyes.png, properties: mcpatcher/mob/spider_eyes.properties
+[15:15:27] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[15:15:44] [Netty Client IO #0/INFO] [FML]: Attempting connection with missing mods [jei, inventorytweaks, customskinloader, uncraftingtable, journeymap, theoneprobe, topaddons] at SERVER
+[15:15:44] [JM-VersionCheck-1/ERROR] [journeymap]: Could not check version URL
+java.net.ConnectException: Connection timed out: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_51]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_51]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_51]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_51]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_51]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[?:1.8.0_51]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_51]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_51]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[?:1.8.0_51]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[?:1.8.0_51]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(Unknown Source) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(Unknown Source) ~[?:1.8.0_51]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_51]
+	at java.security.AccessController.doPrivileged(Unknown Source) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_51]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_51]
+	at java.security.AccessController.doPrivileged(Unknown Source) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_51]
+	at java.net.URL.openStream(Unknown Source) ~[?:1.8.0_51]
+	at journeymap.common.version.VersionCheck$1.run(VersionCheck.java:128) [VersionCheck$1.class:1.12.2-5.5.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_51]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_51]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_51]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_51]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_51]
+[15:15:46] [Client thread/INFO] [net.minecraft.client.multiplayer.GuiConnecting]: Connecting to MC.HUAFIB.TOP, 8166
+[15:15:48] [Netty Client IO #1/INFO] [FML]: Server protocol version 2
+[15:15:48] [Netty Client IO #1/INFO] [FML]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketDisconnect
+[15:15:56] [Client thread/INFO] [net.minecraft.client.multiplayer.GuiConnecting]: Connecting to MC.HUAFIB.TOP, 8166
+[15:15:56] [Netty Client IO #2/INFO] [FML]: Server protocol version 2
+[15:15:56] [Netty Client IO #2/INFO] [FML]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketDisconnect
+[15:15:58] [Client thread/INFO] [net.minecraft.client.multiplayer.GuiConnecting]: Connecting to MC.HUAFIB.TOP, 8166
+[15:16:04] [Client thread/INFO] [net.minecraft.client.multiplayer.GuiConnecting]: Connecting to MC.HUAFIB.TOP, 8166
+[15:16:04] [Netty Client IO #4/INFO] [FML]: Server protocol version 2
+[15:16:04] [Netty Client IO #4/INFO] [FML]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketDisconnect
+[15:16:07] [Client thread/INFO] [net.minecraft.client.multiplayer.GuiConnecting]: Connecting to MC.HUAFIB.TOP, 8166
+[15:16:10] [Client thread/INFO] [net.minecraft.client.multiplayer.GuiConnecting]: Connecting to MC.HUAFIB.TOP, 8166
+[15:16:13] [Client thread/INFO] [net.minecraft.client.multiplayer.GuiConnecting]: Connecting to MC.HUAFIB.TOP, 8166
+[15:22:14] [Client thread/INFO] [net.minecraft.client.multiplayer.GuiConnecting]: Connecting to MC.HUAFIB.TOP, 8166
+[15:22:16] [Server Connector #8/ERROR] [net.minecraft.client.multiplayer.GuiConnecting]: Couldn't connect to server
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: MC.HUAFIB.TOP/117.80.120.120:8166
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_51]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source) ~[?:1.8.0_51]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:352) ~[netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340) ~[netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:612) ~[netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:559) ~[netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:476) ~[netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438) ~[netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at java.lang.Thread.run(Unknown Source) ~[?:1.8.0_51]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 10 more
+[15:22:21] [Client thread/INFO] [net.minecraft.client.multiplayer.GuiConnecting]: Connecting to MC.HUAFIB.TOP, 8166
+[15:22:23] [Server Connector #9/ERROR] [net.minecraft.client.multiplayer.GuiConnecting]: Couldn't connect to server
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: MC.HUAFIB.TOP/117.80.120.120:8166
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_51]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source) ~[?:1.8.0_51]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:352) ~[netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340) ~[netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:612) ~[netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:559) ~[netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:476) ~[netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438) ~[netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at java.lang.Thread.run(Unknown Source) ~[?:1.8.0_51]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 10 more
+[15:24:46] [Client thread/INFO] [net.minecraft.client.multiplayer.GuiConnecting]: Connecting to MC.HUAFIB.TOP, 8166
+[15:24:51] [Netty Client IO #10/INFO] [FML]: Server protocol version 2
+[15:24:51] [Netty Client IO #10/INFO] [FML]: Attempting connection with missing mods [jei, inventorytweaks, customskinloader, uncraftingtable, journeymap, theoneprobe, topaddons] at SERVER
+[15:24:52] [Client thread/INFO] [FML]: Injecting existing registry data into this client instance
+[15:24:52] [Client thread/INFO] [foamfix]: JEI search tree manager injection complete!
+[15:24:52] [Client thread/INFO] [FML]: Applying holder lookups
+[15:24:52] [Client thread/INFO] [FML]: Holder lookups applied
+[15:24:52] [Netty Client IO #10/INFO] [FML]: [Netty Client IO #10] Client side modded connection established
+[15:24:53] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] usedColorBuffers: 4
+[15:24:53] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] usedDepthBuffers: 1
+[15:24:53] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] usedShadowColorBuffers: 0
+[15:24:53] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] usedShadowDepthBuffers: 0
+[15:24:53] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] usedColorAttachs: 4
+[15:24:53] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] usedDrawBuffers: 1
+[15:24:53] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Framebuffer created.
+[15:24:53] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Reset model renderers
+[15:24:53] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Reset world renderers
+[15:24:53] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] FogMode joined the game
+[15:24:53] [Client thread/INFO] [projecte]: Receiving EMC data from server.
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:<init>:50]: Log Path: C:\mc\1.12.2皮皮虾之王\.minecraft\CustomSkinLoader\CustomSkinLoader.log
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [pool-4-thread-1 INFO] CustomSkinLoader 14.11
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [pool-4-thread-1 INFO] DataDir: C:\mc\1.12.2皮皮虾之王\.minecraft\CustomSkinLoader
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [pool-4-thread-1 INFO] Minecraft: 1.12.2(1.12.2)
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [pool-4-thread-1 INFO] Config File: C:\mc\1.12.2皮皮虾之王\.minecraft\CustomSkinLoader\CustomSkinLoader.json
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [pool-4-thread-1 INFO] Try to load config.
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [pool-4-thread-1 INFO] Successfully load config.
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [pool-4-thread-1 INFO] version : 14.11
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [pool-4-thread-1 INFO] enableDynamicSkull : true
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [pool-4-thread-1 INFO] enableTransparentSkin : true
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [pool-4-thread-1 INFO] ignoreHttpsCertificate : false
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [pool-4-thread-1 INFO] forceLoadAllTextures : false
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [pool-4-thread-1 INFO] enableCape : true
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [pool-4-thread-1 INFO] cacheExpiry : 30
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [pool-4-thread-1 INFO] enableUpdateSkull : false
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [pool-4-thread-1 INFO] enableLocalProfileCache : false
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [pool-4-thread-1 INFO] enableCacheAutoClean : false
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [pool-4-thread-1 INFO] loadList : 7
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [FogMode INFO] Loading FogMode's profile.
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [FogMode INFO] 1/7 Try to load profile from 'Mojang'.
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [FogMode INFO] Try to load from cache 'C:\mc\1.12.2皮皮虾之王\.minecraft\CustomSkinLoader\caches\0a16cd8679e55fc855458e8c922bc7ffe3ad88f6'.
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [FogMode INFO] Profile not found.(FogMode's profile not found.)
+[15:24:53] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [FogMode INFO] 2/7 Try to load profile from 'LittleSkin'.
+[15:24:54] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 9 advancements
+[15:24:54] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have no new mail.
+[15:24:54] [Client thread/INFO] [journeymap]: Loading journeymap.topo.config
+[15:24:54] [Client thread/INFO] [journeymap]: Loaded 2 waypoints from C:\mc\1.12.2皮皮虾之王\.minecraft\journeymap\data\mp\Minecraft~\waypoints
+[15:24:54] [Client thread/INFO] [journeymap]: Mapping started in C:\mc\1.12.2皮皮虾之王\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 864MB total, 447MB free 
+[15:24:54] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] §eJourneyMap:§f 按下[§bJ§f]键
+[15:24:54] [Client thread/INFO] [journeymap]: JourneyMap: 按下[J]键
+[15:24:54] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [FogMode INFO] Try to load from cache 'C:\mc\1.12.2皮皮虾之王\.minecraft\CustomSkinLoader\caches\f8a1b4f139b5cfe496ddf80321a65741e5cb1eaa'.
+[15:24:54] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [FogMode INFO] Both skin and cape not found.
+[15:24:54] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [FogMode INFO] 3/7 Try to load profile from 'BlessingSkin'.
+[15:24:55] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [FogMode INFO] Profile not found.
+[15:24:55] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [FogMode INFO] 4/7 Try to load profile from 'ElyBy'.
+[15:24:55] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [玩家系统] 请输入“/login <密码>”以登录
+[15:24:55] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [FogMode INFO] Profile not found.
+[15:24:55] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [FogMode INFO] 5/7 Try to load profile from 'SkinMe'.
+[15:24:55] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [FogMode INFO] Error 404: User not found.
+[15:24:55] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [FogMode INFO] 6/7 Try to load profile from 'LocalSkin'.
+[15:24:55] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [FogMode INFO] Both skin and cape not found.
+[15:24:55] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [FogMode INFO] 7/7 Try to load profile from 'GlitchlessGames'.
+[15:24:57] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [FogMode INFO] Profile not found.
+[15:24:57] [pool-4-thread-1/INFO] [STDOUT]: [customskinloader.Logger:log:70]: [FogMode INFO] FogMode's profile not found in load list.
+[15:25:00] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [玩家系统] 请输入“/login <密码>”以登录
+[15:25:03] [ProjectE Update Checker Notifier/INFO] [projecte]: Update check failed.
+[15:25:04] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [玩家系统] 已成功登录！
+[15:25:04] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Welcome FogMode on Unknown Server server
+[15:25:04] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] 
+[15:25:04] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] This server uses AuthMeReloaded protection!
+[15:25:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] 欧拉欧拉欧拉欧拉欧拉！
+[15:25:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] 欧拉欧拉欧拉欧拉欧拉！
+[15:26:03] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [服务器]  破坏建筑物和游戏环境封禁，严重的永远封IP，请玩家自重! 
+[15:26:50] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[15:26:50] [Client thread/INFO] [journeymap]: Mapping halted in C:\mc\1.12.2皮皮虾之王\.minecraft\journeymap\data\mp\Minecraft~\DIM0
+[15:26:50] [Client thread/WARN] [journeymap]: Existing color palette's resource packs no longer match current loadout.
+[15:26:50] [Client thread/INFO] [journeymap]: WAS: Default
+NOW: Faithful 1.12.2.zip:zip
+[15:26:50] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[15:26:50] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

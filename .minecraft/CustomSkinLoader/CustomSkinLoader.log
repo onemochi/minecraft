@@ -1,0 +1,57 @@
+[2020-05-23 15:24:53] [pool-4-thread-1 INFO] CustomSkinLoader 14.11
+[2020-05-23 15:24:53] [pool-4-thread-1 INFO] DataDir: C:\mc\1.12.2皮皮虾之王\.minecraft\CustomSkinLoader
+[2020-05-23 15:24:53] [pool-4-thread-1 INFO] Minecraft: 1.12.2(1.12.2)
+[2020-05-23 15:24:53] [pool-4-thread-1 INFO] Config File: C:\mc\1.12.2皮皮虾之王\.minecraft\CustomSkinLoader\CustomSkinLoader.json
+[2020-05-23 15:24:53] [pool-4-thread-1 INFO] Try to load config.
+[2020-05-23 15:24:53] [pool-4-thread-1 INFO] Successfully load config.
+[2020-05-23 15:24:53] [pool-4-thread-1 INFO] version : 14.11
+[2020-05-23 15:24:53] [pool-4-thread-1 INFO] enableDynamicSkull : true
+[2020-05-23 15:24:53] [pool-4-thread-1 INFO] enableTransparentSkin : true
+[2020-05-23 15:24:53] [pool-4-thread-1 INFO] ignoreHttpsCertificate : false
+[2020-05-23 15:24:53] [pool-4-thread-1 INFO] forceLoadAllTextures : false
+[2020-05-23 15:24:53] [pool-4-thread-1 INFO] enableCape : true
+[2020-05-23 15:24:53] [pool-4-thread-1 INFO] cacheExpiry : 30
+[2020-05-23 15:24:53] [pool-4-thread-1 INFO] enableUpdateSkull : false
+[2020-05-23 15:24:53] [pool-4-thread-1 INFO] enableLocalProfileCache : false
+[2020-05-23 15:24:53] [pool-4-thread-1 INFO] enableCacheAutoClean : false
+[2020-05-23 15:24:53] [pool-4-thread-1 INFO] loadList : 7
+[2020-05-23 15:24:53] [FogMode INFO] Loading FogMode's profile.
+[2020-05-23 15:24:53] [FogMode INFO] 1/7 Try to load profile from 'Mojang'.
+[2020-05-23 15:24:53] [FogMode DEBUG] Try to request 'https://api.mojang.com/users/profiles/minecraft/FogMode'.
+[2020-05-23 15:24:53] [FogMode DEBUG] Cache file found (Length: 0 , Path: 'C:\mc\1.12.2皮皮虾之王\.minecraft\CustomSkinLoader\caches\0a16cd8679e55fc855458e8c922bc7ffe3ad88f6' , Expire: 0')
+[2020-05-23 15:24:53] [FogMode INFO] Try to load from cache 'C:\mc\1.12.2皮皮虾之王\.minecraft\CustomSkinLoader\caches\0a16cd8679e55fc855458e8c922bc7ffe3ad88f6'.
+[2020-05-23 15:24:53] [FogMode DEBUG] Successfully load from cache
+[2020-05-23 15:24:53] [FogMode DEBUG] Content: 
+[2020-05-23 15:24:53] [FogMode INFO] Profile not found.(FogMode's profile not found.)
+[2020-05-23 15:24:53] [FogMode INFO] 2/7 Try to load profile from 'LittleSkin'.
+[2020-05-23 15:24:53] [FogMode DEBUG] Try to request 'https://littleskin.cn/FogMode.json'.
+[2020-05-23 15:24:54] [FogMode DEBUG] Successfully request (Response Code: 304 , Content Length: -1)
+[2020-05-23 15:24:54] [FogMode DEBUG] Cache file found (Length: 3 , Path: 'C:\mc\1.12.2皮皮虾之王\.minecraft\CustomSkinLoader\caches\f8a1b4f139b5cfe496ddf80321a65741e5cb1eaa' , Expire: 0')
+[2020-05-23 15:24:54] [FogMode INFO] Try to load from cache 'C:\mc\1.12.2皮皮虾之王\.minecraft\CustomSkinLoader\caches\f8a1b4f139b5cfe496ddf80321a65741e5cb1eaa'.
+[2020-05-23 15:24:54] [FogMode DEBUG] Successfully load from cache
+[2020-05-23 15:24:54] [FogMode DEBUG] Content: {}
+
+[2020-05-23 15:24:54] [FogMode INFO] Both skin and cape not found.
+[2020-05-23 15:24:54] [FogMode INFO] 3/7 Try to load profile from 'BlessingSkin'.
+[2020-05-23 15:24:54] [FogMode DEBUG] Try to request 'http://skin.prinzeugen.net/FogMode.json'.
+[2020-05-23 15:24:55] [FogMode DEBUG] Failed to request (Response Code: 404)
+[2020-05-23 15:24:55] [FogMode INFO] Profile not found.
+[2020-05-23 15:24:55] [FogMode INFO] 4/7 Try to load profile from 'ElyBy'.
+[2020-05-23 15:24:55] [FogMode DEBUG] Try to request 'http://skinsystem.ely.by/textures/FogMode?version=2&minecraft_version=1.12.2'.
+[2020-05-23 15:24:55] [FogMode DEBUG] Successfully request (Response Code: 204 , Content Length: -1)
+[2020-05-23 15:24:55] [FogMode DEBUG] Saved to cache (Length: 0 , Path: 'C:\mc\1.12.2皮皮虾之王\.minecraft\CustomSkinLoader\caches\989780c4da62791ecde5be26c74c3b7764d074d4' , Expire: 1590222299)
+[2020-05-23 15:24:55] [FogMode DEBUG] Content: 
+[2020-05-23 15:24:55] [FogMode INFO] Profile not found.
+[2020-05-23 15:24:55] [FogMode INFO] 5/7 Try to load profile from 'SkinMe'.
+[2020-05-23 15:24:55] [FogMode DEBUG] Try to request 'http://www.skinme.cc/uniskin/FogMode.json'.
+[2020-05-23 15:24:55] [FogMode DEBUG] Successfully request (Response Code: 200 , Content Length: 37)
+[2020-05-23 15:24:55] [FogMode DEBUG] Saved to cache (Length: 37 , Path: 'C:\mc\1.12.2皮皮虾之王\.minecraft\CustomSkinLoader\caches\396c927fad5ff0a986149d7ab05cd64437dc0536' , Expire: 1590218788)
+[2020-05-23 15:24:55] [FogMode DEBUG] Content: {"errno":404,"msg":"User not found."}
+[2020-05-23 15:24:55] [FogMode INFO] Error 404: User not found.
+[2020-05-23 15:24:55] [FogMode INFO] 6/7 Try to load profile from 'LocalSkin'.
+[2020-05-23 15:24:55] [FogMode INFO] Both skin and cape not found.
+[2020-05-23 15:24:55] [FogMode INFO] 7/7 Try to load profile from 'GlitchlessGames'.
+[2020-05-23 15:24:55] [FogMode DEBUG] Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=FogMode'.
+[2020-05-23 15:24:57] [FogMode DEBUG] Failed to request (Exception: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target)
+[2020-05-23 15:24:57] [FogMode INFO] Profile not found.
+[2020-05-23 15:24:57] [FogMode INFO] FogMode's profile not found in load list.
