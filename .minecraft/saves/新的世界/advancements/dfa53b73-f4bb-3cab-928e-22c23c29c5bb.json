@@ -1,141 +1,116 @@
 {
-  "minecraft:recipes/decorations/crafting_table": {
+  "twilightforest:alt/entities/hydra": {
     "criteria": {
-      "has_planks": "2020-05-23 14:29:20 +0800"
+      "hurt": "2020-05-31 16:15:58 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/wooden_button": {
+  "twilightforest:alt/treasures/tools": {
     "criteria": {
-      "has_planks": "2020-05-23 14:29:20 +0800"
+      "2": "2020-05-31 16:17:31 +0800",
+      "3": "2020-05-31 16:17:31 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/item_frame": {
+  "twilightforest:progress_hydra": {
     "criteria": {
-      "has_leather": "2020-05-23 03:44:18 +0800"
+      "hydra": "2020-05-31 16:17:12 +0800",
+      "trophy": "2020-05-31 16:17:30 +0800",
+      "blood": "2020-05-31 16:17:31 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2020-05-31 16:14:42 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_planks": {
+  "twilightforest:alt/treasures/fiery_blood_tears": {
     "criteria": {
-      "has_log": "2020-05-23 14:28:09 +0800"
+      "tools": "2020-05-31 16:17:31 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/trapdoor": {
+  "minecraft:husbandry/root": {
     "criteria": {
-      "has_planks": "2020-05-23 14:29:20 +0800"
+      "consumed_item": "2020-05-31 16:17:30 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_chestplate": {
+  "twilightforest:twilight_dinner": {
     "criteria": {
-      "has_leather": "2020-05-23 03:44:18 +0800"
+      "hydra_chop": "2020-05-31 16:17:43 +0800"
     },
-    "done": true
-  },
-  "minecraft:recipes/redstone/repeater": {
-    "criteria": {
-      "has_redstone_torch": "2020-05-23 14:27:50 +0800"
-    },
-    "done": true
+    "done": false
   },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
-      "has_lots_of_items": "2020-05-23 14:29:20 +0800"
+      "has_lots_of_items": "2020-05-31 16:17:35 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_stairs": {
+  "minecraft:adventure/kill_a_mob": {
     "criteria": {
-      "has_planks": "2020-05-23 14:29:20 +0800"
+      "zombie": "2020-05-31 16:15:05 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/fence_gate": {
+  "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "has_planks": "2020-05-23 14:29:20 +0800"
+      "zombie": "2020-05-31 16:15:05 +0800"
+    },
+    "done": false
+  },
+  "twilightforest:alt/treasures/fiery_tool_set": {
+    "criteria": {
+      "ingredient": "2020-05-31 16:17:31 +0800"
     },
     "done": true
   },
-  "minecraft:story/root": {
+  "twilightforest:alt/treasures/fiery_armor_set": {
     "criteria": {
-      "crafting_table": "2020-05-23 14:29:25 +0800"
+      "ingredient": "2020-05-31 16:17:31 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_wooden_slab": {
+  "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "has_planks": "2020-05-23 14:29:20 +0800"
+      "rabbit": "2020-05-31 16:17:30 +0800"
     },
-    "done": true
-  },
-  "minecraft:recipes/decorations/fence": {
-    "criteria": {
-      "has_planks": "2020-05-23 14:29:20 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/wooden_pressure_plate": {
-    "criteria": {
-      "has_planks": "2020-05-23 14:29:20 +0800"
-    },
-    "done": true
-  },
-  "minecraft:end/dragon_breath": {
-    "criteria": {
-      "dragon_breath": "2020-05-23 03:42:21 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/wooden_door": {
-    "criteria": {
-      "has_planks": "2020-05-23 14:29:20 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/stick": {
-    "criteria": {
-      "has_planks": "2020-05-23 14:29:20 +0800"
-    },
-    "done": true
+    "done": false
   },
   "minecraft:adventure/root": {
     "criteria": {
-      "killed_something": "2020-05-23 03:44:16 +0800"
+      "killed_something": "2020-05-31 16:14:42 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_boots": {
+  "twilightforest:alt/treasures/foods/any": {
     "criteria": {
-      "has_leather": "2020-05-23 03:44:18 +0800"
+      "0": "2020-05-31 16:17:30 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/sign": {
+  "twilightforest:alt/treasures/foods/hydra_chop": {
     "criteria": {
-      "has_planks": "2020-05-23 14:29:20 +0800"
+      "food": "2020-05-31 16:17:30 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_helmet": {
+  "twilightforest:alt/treasures/armors": {
     "criteria": {
-      "has_leather": "2020-05-23 03:44:18 +0800"
+      "3": "2020-05-31 16:17:31 +0800"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "forest_hills": "2020-05-23 03:44:10 +0800",
-      "savanna": "2020-05-23 03:41:27 +0800"
+      "desert_hills": "2020-05-31 16:12:31 +0800",
+      "savanna": "2020-05-31 16:06:46 +0800",
+      "river": "2020-05-31 16:13:02 +0800",
+      "desert": "2020-05-31 16:06:57 +0800"
     },
     "done": false
-  },
-  "minecraft:recipes/combat/leather_leggings": {
-    "criteria": {
-      "has_leather": "2020-05-23 03:44:18 +0800"
-    },
-    "done": true
   }
 }
